@@ -1,0 +1,53 @@
+Covary early validations
+
+1. Classification: Covary performs taxonomic classification similarly with alignment-based algorithms.
+Workflow: Covary v1.3 (powered by TIPs-VF; De los Santos, 2025) vs. ETE3 3.1.3 (Huerta-Cepas et al., 2016)
+Method:
+1. The 16S ribosomal RNA of Staphylococcus taiwanensis strain NTUH-S172 (NR_181843.1) was retrieved from the NCBI Nucleotide database.
+2. Up to 5 base mutations were introduced into the sequence, iterated 100x, creating an additional 100 mutational variants. A SARS-CoV-2 sequence with ID NC_045512.2 was used as an outgroup control; (n=101).
+3. The sequences were fed into Covary v1.3 via Google Colab implementation and ETE3 3.1.3 via GenomeNet implementation.
+4. Default parameters were used. Phylogenetic tree was constructed in Covary using custom code, while ETE3 used FastTree v2.1.8 (Price et al., 2010).
+Results: Covary v1.3 generated similar phylogenetic clustering as ETE3, deliniating the outgroup from the subsequences generated from Staphylococcus taiwanensis 16S rRNA gene sequence.
+
+[See Figure a.png]
+
+2. Identification: Covary has similar efficiency as conventional pipelines in sequence identification.
+Workflow: Covary v1.3 (powered by TIPs-VF; De los Santos, 2025) vs. ETE3 3.1.3 (Huerta-Cepas et al., 2016)
+Method:
+1. The 16S ribosomal RNA sequences of Staphylococcus species were retrieved from the NCBI BioProject with the following search details: txid1279[ORGN] AND (33175[Bioproject] OR 33317[Bioproject]).
+2. A SARS-CoV-2 sequence with ID PV950678.1 served as an outgroup control. The 16s rRNA sequence of an unlabelled Staphylococcus spp. (NR_036791.1) served as unknown. An unlablled sequence of another SARS-CoV-2 with ID PV950681.1 served as another unknown variable; (n=94).
+3. The sequences were fed into Covary v1.3 via Google Colab implementation and ETE3 3.1.3 via GenomeNet implementation.
+4. Default parameters were used. Phylogenetic tree was constructed in Covary using custom code, while ETE3 used the following metrics: a) Alignment with MAFFT v6.861b, using default options (Katoh et al., 2005). b) ML tree was inferred using IQ-TREE 1.5.5 ran with ModelFinder and tree reconstruction (Nguyen et al., 2015).
+Results: Both Covary v1.3 and ETE3 identified and placed the unknown sequences in the correct clades or groups.
+
+[See Figure b.png]
+
+3. Relationship: Covary outperforms conventional pipelines in providing sequence relationships.
+Workflow: Covary v1.3 (powered by TIPs-VF; De los Santos, 2025) vs. ETE3 3.1.3 (Huerta-Cepas et al., 2016)
+Method:
+1. The TP53 mutational profiles of patients with head and neck cancers (GDC-TCGA HNC) were retrieved using the UCSC Xena Browser.
+2. The TP53 sequences of patients with mutations were reconstructed using a reverse python implementation that mapped the positions and mutation types from the WT (wildtype) TP53. Patients with 'no variant' records were considered WT; n=220.
+3. The sequences were fed into Covary v1.3 via Google Colab implementation and ETE3 3.1.3 via GenomeNet implementation.
+4. Default parameters were used. Phylogenetic tree was constructed in Covary using custom code, while ETE3 used the following metrics: a) Alignment with MAFFT v6.861b, using default options (Katoh et al., 2005). b) ML tree was inferred using IQ-TREE 1.5.5 ran with ModelFinder and tree reconstruction (Nguyen et al., 2015).
+Results: Covary v1.3 provided better context in mutational relationship, clustering wiltypes distinctly from the mutational variants, which ETE3 failed to demonstrate.
+
+[See Figure c.png]
+
+4. Prediction: Covary features bring superior predictive context not found in conventional phylogenetics.
+Workflow: Covary v1.3 (powered by TIPs-VF; De los Santos, 2025)
+Method:
+1. The TP53 mutational profiles of patients with head and neck cancers (GDC-TCGA HNC) were retrieved using the UCSC Xena Browser.
+2. The TP53 sequences of patients with mutations were reconstructed using a reverse python implementation that mapped the positions and mutation types from the WT (wildtype) TP53. Patients with 'no variant' records were considered WT; n=220.
+3. The sequences were fed into Covary v1.3 via Google Colab implementation.
+4. Default settings were used to run Covary.
+5. Heatmaps were generated in Covary via default parameters.
+Results: Covary v1.3 inferred mutational distances and provided predictive genome integrity outcomes based on TP53 mutational markers.
+
+[See Figure d.png]
+
+----
+References:
+TIPs-VF: https://doi.org/10.1101/2025.02.15.637782
+ETE 3: https://doi.org/10.1093/molbev/msw046
+MAFFT: https://doi.org/10.1093/nar/gki198
+IQ-TREE: https://doi.org/10.1093/molbev/msu300
