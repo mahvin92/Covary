@@ -4,4 +4,4 @@
 A deep learning-based phylogenetic tool, powered by [TIPs-VF](https://doi.org/10.1101/2025.02.15.637782)
 
 ## Current release
-v2.0 (For information about version changes, please see releases)
+v2.0 (For information about version changes, please see [releases](https://github.com/mahvin92/Covary/releases))
