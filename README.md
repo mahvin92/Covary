@@ -85,6 +85,21 @@ The result zip file contains:
 **Prediction:** Estimates potential evolutionary outcomes or mutational trajectories. Covary can forecast likely future variants or clonal progressions, supporting applications in epidemiology and cancer research. *For example, predictive workflows can model how viral genomes might evolve anti-viral resistance or how tumor mutations may drive treatment relapse.*
 
 ## FAQs
+1. What data can I run on Covary?
+- Covary can represent DNA sequences, ATCG, including non-ATCG characters. You can run both DNA and RNA data, ensuring to convert U to T for efficient *k-mer* representation.
+  
+2. Why is Covary reducing my data sample size?
+- By default, Covary ignores sequence entries with non-ATCG characters to reduce data ambiguity due to unresolved bases. This can be changed in ```Step 1. Set parameters``` by setting the value of the variable ```include_N``` from "no" to "yes" 
+
+3. My session crashed during deep learning in ```Step 6```, what should I do?
+- Normally, a session will crash if you run out of memory. Model training during deep learning is a memory-intensive task. To ensure you have enough memory, connect to hosted runtime with GPU (e.g., T4) and rerun Covary.
+
+4. Can I run Covary locally?
+- Currently, Covary is benchmarked and optimized on Colab. While work is in progress to provide a version that works on local machines, you can take advantage of mounting your drive, uploading your files, and downloading results directly on Colab notebooks. We'll post an update once this feature is available.
+
+5. What is the limit on the number of sequences that Covary can analyze in a single run?
+- There is no definite number. However in preliminary analyses, Covary has been found to efficiently and smoothly handles a single run consisting of 906 whole genome sequences of SARS-CoV-2. Work is in progress to further enhance the scability of Covary for whole genome analyses.
+  
 
 ## Troubleshooting
 1. Check that the runtime type is set to GPU at "Runtime" -> "Change runtime type".
