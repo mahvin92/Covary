@@ -1,4 +1,4 @@
-Covary is a deep learning framework for phylogenetic reconstruction that leverages the TIPs-VF genetic representation. TIPs-VF belongs to the Translator-Interpreter Pre-seeding (TIPs) family, a set of encoding schemes designed to enhance the numerical representation of genetic sequences for machine learning applications. By integrating Keras-based neural network architectures, Covary provides an efficient and scalable approach to reconstructing phylogenetic trees.
+Covary is a machine learning-based framework for phylogenetic analysis that leverages the TIPs-VF genetic representation. TIPs-VF belongs to the Translator-Interpreter Pre-seeding (TIPs) family, a set of encoding schemes designed to enhance the numerical representation of genetic sequences for machine learning applications. By integrating Keras-based neural network architectures, Covary provides an efficient and scalable approach to reconstructing phylogenetic relationships.
 
 Versions:
 
@@ -10,4 +10,4 @@ Pre-release (request access at https://covary.chordexbio.com)
 1.3 – Optimizes the perplexity parameter for t-SNE, enabling reliable analysis of datasets with limited sample sizes.
 1.2 – Reduces sequence ambiguity, improving support for datasets containing unprocessed or ambiguous genetic sequences.
 1.1 – Enhances memory efficiency to prevent session crashes caused by RAM overload.
-1.0 – Initial release (unsupported)
+1.0 – Initial release (no longer unsupported)
