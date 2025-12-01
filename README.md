@@ -113,6 +113,7 @@ Comments and suggestions to improve Covary are welcome. If you find any bug or p
 
 ## License notice
 Please see updated license [here](https://github.com/mahvin92/Covary/blob/main/LICENSE)
+
 To request for a validation license, please inquire at https://covary.chordexbio.com/#contact
 
 ## Acknowledgement
