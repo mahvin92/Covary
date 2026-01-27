@@ -1,7 +1,7 @@
 
-COVARY LICENSE v1.2
+COVARY LICENSE v1.3
 Copyright © 2025 Marvin De los Santos. All rights reserved.
-Updated on 9 January 2026
+Updated on 28 January 2026
 
 I. International Users (except those considered Philippine-based users)
 Permission is granted to students, educators, and academic researchers globally (except those users in the Philippines and those considered Philippine-based users, as described in section II) to use Covary for non-profit and non-commercial academic or research purposes only.  
@@ -11,17 +11,6 @@ The following are strictly prohibited without prior written permission or licens
   • Modification or creation of derivative works  
   • Redistribution or sublicensing of the code  
   • Incorporation into other software or services  
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-All rights not expressly granted are reserved by the copyright holder.
-
 
 II. Philippine-based Users
 A Philippine-based user is any user whose interests, affiliations, residency, or activities are connected to the Philippines materially, philosophically, or otherwise. All users considered Philippine-based users must obtain a valid license from the copyright holder prior to any use of Covary, in any form such as research, education, commercial, testing, or otherwise. Philippine-based users inlcude, but are not limited to the following:
@@ -33,3 +22,19 @@ A Philippine-based user is any user whose interests, affiliations, residency, or
 6. Users within organizations owned by Philippine-based entities: Any user who is a member, employee, affiliate, or contractor of an organization (whether local or international) that is wholly or partially owned, managed, or controlled by a Philippine-based user.
 
 Any user meeting the Philippine-based definition, requires a valid license, regardless of the user’s current location, organization, or circumstances.
+
+III. Unauthorized use and automatic license conversion
+Any use of Covary outside the permissions, limitations, or scope expressly granted under this license shall constitute unauthorized use. By engaging in unauthorized use, the user agrees and acknowledges that:
+1. Such use shall be deemed an election to operate under a premium commercial license, effective from the date of first unauthorized use;
+2. The user shall be obligated to pay all applicable fees associated with such premium license, including retroactive fees covering the period of unauthorized use;
+3. Applicable fees shall be determined according to:
+  - the then-current published pricing of the copyright holder, or
+  - a separately issued invoice or licensing agreement provided by the copyright holder.
+
+Failure to remit payment upon notice constitutes a material breach of this license and may result in termination of rights, revocation of access, and pursuit of legal remedies.
+
+IV. Warranty disclaimer and liability limitation 
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, OR ACCURACY. IN NO EVENT SHALL THE AUTHORS, COPYRIGHT HOLDERS, OR AFFILIATED ENTITIES BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+V. Reservation of rights
+All rights not expressly granted under this license are reserved by the copyright holder.
