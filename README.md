@@ -1,4 +1,4 @@
-> Starting 2026 March 1, all access to Covary including validation and free licenses can now be requested through [the Covary portal](https://covary.chordexbio.com/)
+> **Announcement:** Starting 2026 March 1, all access to Covary including validation and free licenses can now be requested through [the Covary portal](https://covary.chordexbio.com/)
 
 <img width="200" height="200" alt="Covary-vertical" src="https://github.com/user-attachments/assets/53c15c6a-d6f6-45c4-ab55-1cc22619618b" />
 
